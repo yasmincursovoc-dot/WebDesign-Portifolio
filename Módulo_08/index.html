@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Girl's World 🌸</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <h1>Girl's World 🌸</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#estilo">Meu Estilo</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+
+            <h2 id="titulo">
+                Bem-vinda ao seu espaço! ✨
+            </h2>
+
+            <p id="descricao">
+                Um lugar para encontrar inspiração,
+                dicas e coisas que fazem você feliz.
+            </p>
+
+            <button onclick="mudarMensagem()">
+                Clique aqui 💕
+            </button>
+
+        </section>
+
+
+        <!-- DICAS -->
+        <section id="dicas">
+
+            <h2>Dica do dia 🌷</h2>
+
+            <p id="dica">
+                Clique no botão para receber uma dica.
+            </p>
+
+            <button onclick="mostrarDica()">
+                Mostrar dica
+            </button>
+
+        </section>
+
+
+        <!-- ESTILO -->
+        <section id="estilo">
+
+            <h2>Escolha seu estilo 🎨</h2>
+
+            <p id="textoEstilo">
+                Como você está se sentindo hoje?
+            </p>
+
+            <div class="botoes">
+
+                <button onclick="temaRosa()">
+                    Rosa 🌸
+                </button>
+
+                <button onclick="temaLilás()">
+                    Lilás 💜
+                </button>
+
+                <button onclick="temaOriginal()">
+                    Original ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE -->
+        <section>
+
+            <h2>Uma mensagem para você 💌</h2>
+
+            <p id="mensagem">
+                Clique no botão para descobrir sua mensagem.
+            </p>
+
+            <button onclick="mostrarMensagem()">
+                Mostrar mensagem
+            </button>
+
+        </section>
+
+
+        <!-- ADICIONAR DICA -->
+        <section>
+
+            <h2>Minha própria dica 📝</h2>
+
+            <input
+                type="text"
+                id="novaDica"
+                placeholder="Digite uma dica..."
+            >
+
+            <button onclick="adicionarDica()">
+                Adicionar
+            </button>
+
+            <div id="listaDicas"></div>
+
+        </section>
+
+
+        <!-- MOSTRAR / ESCONDER -->
+        <section>
+
+            <h2>Mensagem secreta 🤫</h2>
+
+            <p id="mensagemSecreta">
+                Você é incrível exatamente como é! 💖
+            </p>
+
+            <button onclick="alternarMensagem()">
+                Esconder mensagem
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Girl's World 🌸
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

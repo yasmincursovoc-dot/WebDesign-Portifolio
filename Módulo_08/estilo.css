@@ -1,0 +1,184 @@
+/* ==========================================
+   CONFIGURAÇÕES GERAIS
+   ========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #fff5f8;
+
+    color: #4a3a3f;
+
+    transition: 0.3s;
+}
+
+
+/* ==========================================
+   HEADER
+   ========================================== */
+
+header {
+    background-color: #d86b8a;
+
+    color: white;
+
+    padding: 25px;
+
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 10px;
+
+    font-weight: bold;
+}
+
+
+/* ==========================================
+   CONTEÚDO
+   ========================================== */
+
+main {
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 30px 0;
+}
+
+section {
+    background-color: white;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #8f3d59;
+
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+
+/* ==========================================
+   BOTÕES
+   ========================================== */
+
+button {
+    background-color: #d86b8a;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    margin: 5px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8f3d59;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   INPUT
+   ========================================== */
+
+input {
+    width: 70%;
+
+    padding: 12px;
+
+    border: 2px solid #efd1da;
+
+    border-radius: 8px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #d86b8a;
+}
+
+
+/* ==========================================
+   DICAS ADICIONADAS
+   ========================================== */
+
+.dica-item {
+    background-color: #fff0f4;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border-radius: 8px;
+
+    color: #8f3d59;
+}
+
+
+/* ==========================================
+   TEMAS
+   ========================================== */
+
+.tema-rosa {
+    background-color: #ffe1eb;
+}
+
+.tema-lilas {
+    background-color: #eee1ff;
+}
+
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+footer {
+    background-color: #8f3d59;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
