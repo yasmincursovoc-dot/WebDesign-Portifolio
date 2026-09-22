@@ -1,0 +1,186 @@
+/* =========================================
+   PALETA DE CORES
+   ========================================= */
+
+:root {
+    --cor-principal: #ff6aeb;
+    --cor-secundaria: #ecf0f1;
+    --cor-destaque: #fc02be;
+    --cor-texto: #333333;
+    --cor-branca: #ffffff;
+}
+
+
+/* =========================================
+   CONFIGURAÇÕES GERAIS
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   CABEÇALHO
+   ========================================= */
+
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+
+    /* Box Model */
+    padding: 30px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   MENU
+   ========================================= */
+
+nav a {
+    color: var(--cor-branca);
+    text-decoration: none;
+
+    /* Espaçamento */
+    margin: 0 10px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--cor-destaque);
+}
+
+
+/* =========================================
+   CONTEÚDO
+   ========================================= */
+
+main {
+    width: 80%;
+    max-width: 1000px;
+
+    /* Centraliza o conteúdo */
+    margin: 0 auto;
+}
+
+section {
+    background-color: var(--cor-branca);
+
+    /* BOX MODEL */
+
+    /* Espaço interno */
+    padding: 25px;
+
+    /* Espaço externo */
+    margin-bottom: 25px;
+
+    /* Borda */
+    border: 2px solid #dddddd;
+
+    border-radius: 10px;
+}
+
+section h2 {
+    color: var(--cor-principal);
+
+    /* Espaçamento */
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   CARDS
+   ========================================= */
+
+.card {
+    background-color: #f8f8f8;
+
+    padding: 20px;
+
+    margin-top: 15px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: var(--cor-destaque);
+
+    margin-bottom: 10px;
+}
+
+.card ul {
+    margin-left: 25px;
+}
+
+
+/* =========================================
+   BOTÃO
+   ========================================= */
+
+.botao {
+    display: inline-block;
+
+    background-color: var(--cor-destaque);
+    color: var(--cor-branca);
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    margin-top: 15px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    /* Transição para o efeito hover */
+    transition: 0.3s;
+}
+
+
+/* Efeito quando o mouse passa sobre o botão */
+
+.botao:hover {
+    background-color: var(--cor-principal);
+
+    transform: scale(1.05);
+}
+
+
+/* =========================================
+   RODAPÉ
+   ========================================= */
+
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
