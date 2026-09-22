@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #fff5f8;
+
+    color: #4a3a3f;
+
+    transition: 0.3s;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #d86b8a;
+
+    color: white;
+
+    padding: 25px;
+
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 10px;
+
+    font-weight: bold;
+}
+
+
+/* CONTEÚDO */
+
+main {
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 30px 20px;
+}
+
+section {
+    background-color: white;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+}
+
+section h2 {
+    color: #8f3d59;
+
+    margin-bottom: 15px;
+}
+
+
+/* BOTÕES */
+
+button {
+    background-color: #d86b8a;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    margin: 10px 5px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8f3d59;
+
+    transform: scale(1.05);
+}
+
+
+/* MENSAGEM */
+
+#mensagem {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* DICA */
+
+#dica {
+    margin: 20px;
+
+    font-size: 18px;
+}
+
+
+/* MENSAGEM SECRETA */
+
+.escondido {
+    display: none;
+}
+
+#mensagemSecreta {
+    margin-top: 20px;
+
+    color: #d86b8a;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #8f3d59;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* CORES PERSONALIZADAS */
+
+.rosa {
+    background-color: #ffe1eb;
+}
+
+.lilas {
+    background-color: #eee1ff;
+}
